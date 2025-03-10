@@ -8,6 +8,8 @@
 
 2. Ensure the downloaded **GGUF file** is saved locally for deployment.
 
+3. The fine-tuned model is also available on Hugging Face: [Qwen 3B Fine-Tuned](https://huggingface.co/HasinduNimesh/qwen3b-finetuned)
+
 ---
 
 ## **2️⃣ Install Ollama & Prepare the Model**
