@@ -40,6 +40,6 @@ Question: {user_query}
 
 Answer:"""
 
-    # Generate response using reasoner (DeepSeek-R1)
+    # Generate response using reasoner
     response = reasoner.run(prompt, reset=False)
     return response

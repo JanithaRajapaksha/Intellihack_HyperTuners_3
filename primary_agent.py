@@ -34,7 +34,7 @@ def get_model(model_id):
     )
 
 # Load tool model (Qwen-2.5:7b)
-primary_model = get_model("qwen2.5:3b")
+primary_model = get_model("qwen-finetuned")
 
 # Create primary agent using Qwen for tool responses
 primary_agent = ToolCallingAgent(tools=[rag_tool], model=primary_model, add_base_tools=False, max_steps=3)
